@@ -1,0 +1,30 @@
+{
+    "name": "scratch",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "dev": "vinxi dev",
+        "build": "vinxi build",
+        "start": "vinxi start"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "packageManager": "pnpm@10.12.1",
+    "dependencies": {
+        "@tanstack/react-router": "^1.120.20",
+        "@tanstack/react-start": "^1.120.20",
+        "react": "^19.1.0",
+        "react-dom": "^19.1.0",
+        "vinxi": "^0.5.7"
+    },
+    "devDependencies": {
+        "@types/react": "^19.1.7",
+        "@types/react-dom": "^19.1.6",
+        "@vitejs/plugin-react": "^4.5.2",
+        "typescript": "^5.8.3",
+        "vite-tsconfig-paths": "^5.1.4"
+    }
+}
