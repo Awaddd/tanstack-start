@@ -8,6 +8,8 @@
     "app/routes/__root.tsx": true,
     "app.config.ts": true,
     "tsconfig.json": true,
-    "pnpm-lock.yaml": true
+    "pnpm-lock.yaml": true,
+    "components.json": true,
+    "postcss.config.ts": true
   }
 }

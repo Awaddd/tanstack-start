@@ -1,3 +1,4 @@
+import { Button } from '@/components/ui/button'
 import { createFileRoute } from '@tanstack/react-router'
 import { createServerFn } from '@tanstack/react-start'
 import { useState } from 'react'
@@ -17,15 +18,18 @@ function Home() {
     const [greeting, setGreeting] = useState<string>(Route.useLoaderData())
 
     return (
-        <button
-            type="button"
-            onClick={() => {
-                greetSomeone({ data: "Jane" }).then((data) => {
-                    setGreeting(data)
-                })
-            }}
-        >
-            {greeting}
-        </button>
+        <main className="h-screen flex flex-col jutify-center align-center p-10 dark bg-background text-foreground">
+            <section>
+                <Button
+                    onClick={() => {
+                        greetSomeone({ data: "Jane" }).then((data) => {
+                            setGreeting(data)
+                        })
+                    }}
+                >
+                    {greeting}
+                </Button>
+            </section>
+        </main>
     )
 }
