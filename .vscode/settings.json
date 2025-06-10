@@ -1,0 +1,13 @@
+{
+  "files.exclude": {
+    "node_modules": true,
+    "app/router.tsx": true,
+    "app/routeTree.gen.ts": true,
+    "app/ssr.tsx": true,
+    "app/client.tsx": true,
+    "app/routes/__root.tsx": true,
+    "app.config.ts": true,
+    "tsconfig.json": true,
+    "pnpm-lock.yaml": true
+  }
+}
